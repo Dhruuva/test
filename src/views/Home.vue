@@ -1,6 +1,6 @@
 <template lang="pug">
 	.svgResponsive(ref="field" @resize="reSize")
-		chart(:points="data" tky="5")
+		chart(:points="data" tky="5" decimal='0.01')
 </template>
 
 <script>
