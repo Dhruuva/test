@@ -1,7 +1,7 @@
 module.exports = {
 	
 	outputDir: 'docs',
-	publicPath: '/'
+	publicPath: '/test/'
 
 
 }
