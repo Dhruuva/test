@@ -1,5 +1,6 @@
 <template lang="pug">
 	.svgResponsive(ref="field" @resize="reSize")
+		button click
 		chart(:points="data" tky="5" decimal='0.01')
 </template>
 
